@@ -1,6 +1,6 @@
 📌 Mural – Sistema em PHP com MySQL
 
-Bem-vindo ao Mural , um sistema desenvolvido em PHP processual com MySQL , criado para permitir que os usuários publiquem mensagens, imagens e visualizem um mural atualizado em tempo real.
+Bem-vindo ao Mural , um sistema desenvolvido em PHP processual com MySQL , criado para permitir que os usuários publiquem mensagens e visualizem um mural atualizado em tempo real.
 Com uma interface simples, limpa e funcional, o Mural foi pensado para ser leve, rápido e fácil de usar.
 
 🎯 Recursos principais
@@ -15,8 +15,6 @@ Sistema básico de autenticação.
 🖼️ Publicação no Mural
 
 Cada usuário pode fazer publicações.
-
-Upload de imagens (armazenadas na pasta uploads/ ).
 
 Publicações organizadas por data e hora.
 
@@ -48,7 +46,7 @@ Apache (via XAMPP/WAMP/MAMP)
 
 📚 Como instalar no servidor local
 1️⃣ Clonar o protetor
-git clone https://github.com/Keirrison01/CRUD-Recados.git
+git clone https://github.com/Keirrison01/Sistema-Recados.git
 
 
 Ou baixe como ZIP e extraia.
@@ -79,17 +77,11 @@ Iniciar o MySQL pelo painel do XAMPP/WAMP
 
 http://localhost/phpmyadmin
 
-
-Crie um banco de dados (exemplo):
-
-mural
-
-
-Importe o arquivo .sql do projeto (se houver):
+Importe o arquivo .sql do projeto :
 
 Vá em Importar
 
-Escolha o arquivomural.sql
+Escolha o arquivo mural2.sql
 
 4️⃣ Atualizar a conexão com o banco
 
@@ -98,7 +90,7 @@ No seu arquivo conexao.php (ou equivalente):
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "mural";
+$dbname = "mural2";
 
 
 Modifique se necessário.
@@ -129,3 +121,4 @@ O software é fornecido "como está", sem garantias
 🚀 Pronto para usar?
 
 Comece agora mesmo a testar seu Mural e personalize da maneira que quiser!
+
