@@ -99,7 +99,7 @@ Modifique se necessário.
 
 Abra o navegador e acesse:
 
-http://localhost/nome-da-pasta
+http://localhost/mural/public/cadastrar.php
 
 🎨 Interface
 
@@ -121,4 +121,5 @@ O software é fornecido "como está", sem garantias
 🚀 Pronto para usar?
 
 Comece agora mesmo a testar seu Mural e personalize da maneira que quiser!
+
 
